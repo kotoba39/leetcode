@@ -1,4 +1,8 @@
 class Solution:
+    '''思路：将数组值和数组各值的index分别作为key和value放入dict，
+    遍历dict，用target-数组值，
+    若余数能在dict中找到，那么就返回这两个key对应的value，即它们在数组中的index
+    '''
     def twoSum(self,nums,target):
         num_target=[]
         num_index=[]
@@ -16,7 +20,7 @@ class Solution:
         return result
 
 
-nums=[3,3]
+nums=[3,2,4]
 target=6
 solution=Solution()
 print(solution.twoSum(nums,target))
