@@ -1,3 +1,5 @@
+//剑指 Offer 06. 从尾到头打印链表
+//输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
 public class ReverserPrint {
     //head为null表示长度为0.head的val是有值的
     public int[] reversePrint(ListNode head) {
