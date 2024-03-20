@@ -15,7 +15,7 @@ public class CountBits {
             } else {
                 if (changeZero == -1) {
                     int allCount = oneNumber + zeroNumber - 1;
-                    changeZero=()
+                    //changeZero=();
                     if (oneNumber > 1 && zeroNumber > 0) {
                         changeZero = oneNumber - 1;
                     }
@@ -35,9 +35,9 @@ public class CountBits {
         return resultOne;
     }
 
-    private int count(int all,int n){
+   /* private int count(int all,int n){
         int nCount=0;
         for
-    }
+    }*/
 
 }
